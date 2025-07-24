@@ -11,3 +11,5 @@ today=$(date +"%Y-%m-%d")
 git add .
 git commit -m "📅 $today: $msg"
 git push origin main
+
+# ./commit.sh on Linux/macOS so run only on Git Bash directly by opening in this folder
